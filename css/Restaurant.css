@@ -1,0 +1,191 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+#navigation{
+    width: 100%;
+    background-color: rgb(105, 164, 184);
+}
+#navigation_div{
+    width: 96%;
+    background-color: rgb(92, 116, 124);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+#ulisting{
+    display: flex;
+    
+}
+#ulisting li{
+    margin: 5px;
+}
+.article1_div{
+    width: 49%;
+    background-color: rgb(105, 164, 184);
+    margin: auto;
+    margin: 1px;
+    padding: 2%;
+}
+.article1{
+    background-color: rgb(105, 164, 184);
+    width: 100%;
+    display: flex;
+    padding-bottom: 20px;
+}
+#hero{
+    width: 90%;
+}
+#enjoy_meal{
+    font-size: 5rem;
+}
+#enjoy_meal_button{
+    padding: 15px;
+    width: 35%;
+    margin-top: 15px;
+    background-color: orange;
+}
+#ejoymeal_paragraph{
+    font-size: 20px;
+}
+#bookTable{
+    background-color: orange;
+    padding: 10px;
+}
+#selectoption{
+    background-color: lightblue;
+}
+#sec2{
+    background-color: lightgray;
+    width: 100%;
+}
+#article2{
+    width: 90%;
+    background-color: lightskyblue;
+    margin: auto;
+}
+#article2_div1{
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    
+}
+#article2_div12{
+    width: 100%;
+    background-color: lightblue;
+}
+.article2_div2{
+    width: 25%;
+    background-color: lightgreen;
+    margin: 1px;
+    padding: 2px;
+}
+.sec2_paragraph{
+    padding: 10px;
+}
+.article2_img{
+    width: 40px;
+}
+.article2_img_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#article2_div12{
+    width: 100%;
+    background-color: rgb(99, 162, 201);
+    display: flex;
+}
+#article2_div12_div{
+    width: 49%;
+    background-color: lightsalmon;
+    margin: 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#article2_div12_div2{
+    width: 49%;
+    background-color: rgb(239, 201, 186);
+    margin: 1px;
+}
+.img_innerDivs{
+    width: 48%;
+    background-color: gray;
+    margin: 5px;
+}
+
+.about1{
+    width: 100%;
+}
+#about2{
+    width: 75%;
+    margin-left: 25%;
+}
+#about21{
+    width: 75%;
+    padding-top: 25%;
+}
+#div3_art{
+    padding: 5%;
+}
+#readMore{
+    width: 45%;
+    border: none;
+    margin: 5%;
+    background-color: orange;
+    padding: 10px;
+}
+#welcome1{
+    font-size: 70px;
+}
+.paragraph2{
+    font-size: 20px;
+}
+#sec3{
+    width: 100%;
+    background-color: rgb(113, 146, 157);
+}
+#art3{
+    width: 90%;
+    margin: auto;
+}
+#art3_innerDiv{
+    background-color: rgb(118, 87, 75);
+    margin: 1px;
+}
+#art3_innerDiv2{
+    background-color: rgb(118, 87, 75);
+    margin: 1px;
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu_class{
+    width: 49%;
+    background-color: lightblue;
+    margin: 1px;
+    padding: 2px;
+}
+
+/* price divs begins here */
+.menu_class{
+    display: flex;
+}
+.imgg{
+    width: 19%;
+    background-color: aquamarine;
+}
+.ptag{
+    width: 58%;
+    background-color: red;
+}
+.price{
+    width: 19%;
+    background-color: bisque;
+}
