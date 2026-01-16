@@ -157,6 +157,7 @@
 #art3_innerDiv{
     background-color: rgb(118, 87, 75);
     margin: 1px;
+    text-align: center;
 }
 #art3_innerDiv2{
     background-color: rgb(118, 87, 75);
@@ -169,7 +170,7 @@
 .menu_class{
     width: 49%;
     background-color: lightblue;
-    margin: 1px;
+    margin: 5px;
     padding: 2px;
 }
 
@@ -188,4 +189,46 @@
 .price{
     width: 19%;
     background-color: white;
+}
+.price h3{
+    padding-top: 35%;
+    float: right;
+}
+.mealtime2{
+    margin: 10px;
+    padding: 3px;
+}
+#mealtime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec4{
+    width: 100%;
+    background-color: lightpink;
+}
+#art4{
+    width: 90%;
+    background-color: lightcoral;
+    margin: auto;
+}
+#art4_div1{
+    width: 70%;
+    background-color: lightcyan;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#art4_div2{
+    width: 80%;
+}
+.input_booking{
+    padding: 15px;
+}
+#date1{
+    width: 45%;
+}
+#noOfpeople{
+    width: 45%;
 }
