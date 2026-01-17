@@ -213,7 +213,7 @@
     margin: auto;
 }
 #art4_div1{
-    width: 70%;
+    width: 60%;
     background-color: lightcyan;
     margin: auto;
     display: flex;
@@ -221,14 +221,57 @@
     align-items: center;
 }
 #art4_div2{
-    width: 80%;
+    width: 95%;
+    margin: auto;
+    text-align: center;
 }
 .input_booking{
     padding: 15px;
 }
 #date1{
-    width: 45%;
+    width: 195px;
 }
 #noOfpeople{
-    width: 45%;
+    width: 198px;
 }
+#textarea1{
+    width: 62%;
+    margin-top: 2%;
+    padding: 25px;
+}
+#button1{
+    width: 62%;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+/* footer begins here */
+#footer{
+    width: 100%;
+    background-color: gray;
+}
+#footer_article{
+    width: 90%;
+    background-color: darkkhaki;
+    margin: auto;
+}
+#footer_article_div{
+    width: 100%;
+    background-color: rgb(113, 99, 81);
+    display: flex;
+}
+#footer_article_div2{
+    width: 100%;
+    background-color: yellowgreen;
+}
+.footer_div1{
+    width: 25%;
+    background-color: yellowgreen;
+    padding: 5px;
+    margin: 1px;
+}
+
