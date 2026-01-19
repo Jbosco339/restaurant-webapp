@@ -4,42 +4,61 @@
     list-style-type: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    text-decoration: none;
 
 }
 #navigation{
     width: 100%;
-    background-color: rgb(92, 116, 124);
+    background-color: #a39894;
 }
 #navigation_div{
     width: 96%;
-    background-color: rgb(92, 116, 124);
+    background-color: #a39894;
     margin: auto;
     display: flex;
     justify-content: space-between;
     padding: 5px;
 }
+#nav_div1{
+    display: flex;
+}
+#logo_img{
+    width: 40px;
+}
 #ulisting{
     display: flex;
-    
+}
+#ulisting a{
+    color: black;
+    padding: 7px;
+}
+#cravehub{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 2%;
+    color: black;
 }
 #ulisting li{
     margin: 5px;
+    font-weight: 400;
 }
 .article1_div{
     width: 49%;
-    background-color: rgb(92, 116, 124);
+    background-color: #a39894;
     margin: auto;
     margin: 1px;
     padding: 2%;
 }
 .article1{
-    background-color: rgb(92, 116, 124);
+    background-color: #a39894;
     width: 100%;
     display: flex;
     padding-bottom: 20px;
 }
 #hero{
     width: 90%;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgb(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 #enjoy_meal{
     font-size: 5rem;
@@ -51,17 +70,27 @@
     background-color: orange;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 #ejoymeal_paragraph{
     font-size: 20px;
 }
 #bookTable{
-    background-color: orange;
-    padding: 10px;
-    border-radius: 5px;
+    background-color: #f4b400;
+    color: #fff;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+#bookTable:hover{
+    background-color: #d89e00;
+    transform: translateY(-2px);
 }
 #selectoption{
-    background-color: rgb(92, 116, 124);
+    background-color: #a39894;
+    border: none;
+    cursor: pointer;
 }
 #sec2{
     background-color: white;
@@ -84,10 +113,17 @@
 }
 .article2_div2{
     width: 25%;
-    background-color: white;
+    background-color: #fff;
     margin: 1px;
-    padding: 2%;
+    padding: 24px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgb(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
 }
+.article2_div2:hover{
+    transform: translateY(-6px);
+}
+
 .article2_div2 h3{
     font-size: 30px;
 }
@@ -99,6 +135,7 @@
 }
 .sec2_paragraph{
     padding: 10px;
+    
 }
 .article2_img{
     width: 40px;
@@ -113,34 +150,39 @@
     background-color: white;
     display: flex;
 }
+.img_innerDivs{
+    width: 49%;
+    background-color: white;
+    margin: 2px;
+    cursor: pointer;
+}
+.about1{
+    width: 100%;
+    border-radius: 14px;
+    box-shadow: 0 12px 25px rgb(0, 0, 0, 0.12);
+    transition: transform 0.3s ease;
+}
+.about1:hover{
+    transform: scale(1.03);
+}
+
+
+
+
 #article2_div12_div{
     width: 49%;
     background-color: white;
     margin: 1px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    cursor: pointer;
+    
 }
 #article2_div12_div2{
     width: 49%;
     background-color: white;
     margin: 1px;
-}
-.img_innerDivs{
-    width: 48%;
-    background-color: white;
-    margin: 5px;
-}
-
-.about1{
-    width: 100%;
-}
-#about2{
-    width: 75%;
-    margin-left: 25%;
-}
-#about21{
-    width: 75%;
-    padding-top: 25%;
 }
 #div3_art{
     padding: 5%;
@@ -150,15 +192,27 @@
     width: 40%;
     border: none;
     margin: 5%;
-    background-color: orange;
-    padding: 10px;
-    font-size: 20px;
+    background: #f4b400;
+    color: #fff;
+    padding: 12px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 #welcome1{
-    font-size: 60px;
+    font-size: 40px;
+    padding: 10px 10px;
+}
+#abouthead{
+    font-size: 2rem;
+    font-weight: 700;
 }
 .paragraph2{
     font-size: 20px;
+    padding-left: 40px;
+    color: #6b7280;
+    margin-bottom: 16px;
 }
 #sec3{
     width: 100%;
@@ -169,11 +223,28 @@
     margin: auto;
 }
 #art3_innerDiv{
-    background-color: white;
+    width: 100%;
+    background-color: #fff7f2;
     margin: 1px;
     text-align: center;
     margin-bottom: 5%;
-    padding-top: 10%;
+    padding: 40px 0;
+}
+#foodmenu{
+    font-size: 0.9rem;
+    color: #f4b400;
+    text-transform: uppercase;
+}
+#popular{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.mealtime_tag{
+    color: gray;
+}
+.mealtime_lunch{
+    padding-left: 10%;
+    padding-right: 10%;
 }
 #art3_innerDiv h4{
     font-size: 20px;
@@ -188,37 +259,75 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+#art3_innerDiv2 p{
+    color: gray;
+}
 
 .menu_class{
     width: 49%;
     background-color: white;
     margin: 5px;
     padding: 2px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+    cursor: pointer;
 }
 
 /* price divs begins here */
-.menu_class{
-    display: flex;
-}
+
 .imgg{
-    width: 19%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 6px 15px rgb(0, 0, 0, 1.2);
     background-color: white;
+}
+.dishes{
+    width: 90px;
+}
+#potatoes{
+    height: 80px;
+    border-radius: 50%;
+}
+#fishy{
+    height: 80px;
+    border-radius: 50%;
+
+}
+.dishes22{
+    height: 90px;
+    border-radius: 90%;
 }
 .ptag{
     width: 58%;
     background-color: white;
+}
+.ptag h2{
+    font-weight: 600;
+    font-size: 1.1rem;
+    
 }
 .price{
     width: 19%;
     background-color: white;
 }
 .price h3{
-    padding-top: 35%;
+    padding-top: 10%;
     float: right;
+    color: #f4b400;
+    font-weight: 700;
+    
 }
 .mealtime2{
     margin: 10px;
-    padding: 3px;
+}
+.mealtime2 h4{
+    cursor: pointer;
+    color: #6b7280;
+    margin: 0 12px;
 }
 #mealtime{
     display: flex;
@@ -248,18 +357,20 @@
     text-align: center;
 }
 .input_booking{
+    width: 48%;
     padding: 15px;
 }
 #date1{
     width: 195px;
+    width: 50%;
+    float: left;
+    margin-left: 1%;
 }
-#noOfpeople{
-    width: 198px;
-}
+
 #textarea1{
-    width: 62%;
+    width: 98%;
     margin-top: 2%;
-    padding: 25px;
+    padding: 8%;
 }
 #button1{
     width: 62%;
@@ -305,4 +416,15 @@
 }
 .footer_div1 h2{
     color: orange;
+}
+.dinning{
+    width: 50px;
+}
+.footerli{
+    padding: 8px;
+}
+.subimgss1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
