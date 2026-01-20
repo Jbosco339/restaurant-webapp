@@ -7,10 +7,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/Mediaquerry.css">
+    
     <link rel="stylesheet" href="css/Restaurant.css">
+    <link rel="stylesheet" href="css/Mediaquerry.css">
 </head>
 <body>
+    <!-- HAMBURGER DROPDOWN CODE HERE -->
+    <section id="Dropdown_sec">
+        <ul id="TheUl_Dropdown">
+            <div id="exit_button"><img src="img/logo/close.png" id="close_img" alt=""></div>
+            <li><a class="list_anchor" href="#">Home</a></li>
+            <li><a class="list_anchor" href="#">About</a></li>
+            <li><a class="list_anchor" href="#">Services</a></li>
+            <li><a class="list_anchor" href="#">Menu</a></li>
+            <li><a class="list_anchor" href="#">Contact</a></li>
+        </ul>
+    </section>
+
+
+<!-- MAIN HEADER BEGAN HERE -->
     <header id="headerr">
         <nav id="navigation">
             <div id="navigation_div">
@@ -32,8 +47,11 @@
                 </div>
                 <div id="nav_div3">
                    <a href="">
-                     <h3 id="bookTable">BOOK A TABLE</h3>
+                     <h3 id="bookTable" class="booktable_head">BOOK A TABLE</h3>
                    </a>
+                </div>
+                <div>
+                    <img src="img/logo/hamburger (1).png" id="burger_img" alt="">
                 </div>
             </div>
         </nav>
@@ -60,36 +78,36 @@
                 <div id="article2_div1">
                     <div class="article2_div2">
                         <div class="subimgss1">
-                            <img src="img/logo/restaurant.png" alt="" class="dinning">
+                            <img src="img/logo/cooking.png" alt="" class="dinning">
                         </div>
-                        <h3>Master Chefs</h3>
+                        <h3 class="art2_h3">Master Chefs</h3>
                         <p class="sec2_paragraph">
                             Our experienced chefs craft every meal with precision, creativity, and  love for great food.
                         </p>
                     </div>
                     <div class="article2_div2">
                         <div class="subimgss1">
-                            <img src="img/logo/restaurant.png" alt="" class="dinning">
+                            <img src="img/logo/24-7.png" alt="" class="dinning">
                         </div>
-                        <h3>24/7 Service</h3>
+                        <h3 class="art2_h3">24/7 Service</h3>
                         <p class="sec2_paragraph">
                          Enjoy delicious meals anytime. We're always ready to serve you, day or night.
                         </p>
                     </div>
                     <div class="article2_div2">
                         <div class="subimgss1">
-                            <img src="img/logo/restaurant.png" alt="" class="dinning">
+                            <img src="img/logo/medal.png" alt="" class="dinning">
                         </div>
-                        <h3>Quality Food</h3>
+                        <h3 class="art2_h3">Quality Food</h3>
                         <p class="sec2_paragraph">
                             we use only fresh, carefully selected ingredients to ensure top-quality meals
                         </p>
                     </div>
                     <div class="article2_div2">
                         <div class="subimgss1">
-                            <img src="img/logo/restaurant.png" alt="" class="dinning">
+                            <img src="img/logo/order.png" alt="" class="dinning">
                         </div>
-                        <h3>Online Order</h3>
+                        <h3 class="art2_h3">Online Order</h3>
                         <p class="sec2_paragraph">
                            Order your favorite meals online and enjoy fast, reliable delivery to your doorsteps.
                         </p>
@@ -113,7 +131,7 @@
                     <div id="article2_div12_div2">
                        <div id="div3_art">
                          <h3 id="abouthead">About Us</h3><br>
-                        <h1 id="welcome1">Welcome to Crav Hub</h1><br>
+                        
                         <p class="paragraph2">
                             Crave Hub is a modern dining experience where great taste meets comfort. We are passionate about serving freshly prepared meals that bring people together in a warm and inviting atmosphere.
                         </p>
@@ -255,7 +273,7 @@
                 <div id="art4_div1">
                     <div id="art4_div2">
                         <h3>Reservation</h3>
-                    <h1>Book A Table Online</h1>
+                    <h1 id="bookTable_online">Book A Table Online</h1>
                     <input type="text" placeholder="Name" class="input_booking">
                     <input type="email" placeholder="Your Email" class="input_booking"><br><br>
                     <input type="date" placeholder="Date" class="input_booking" id="date1">
@@ -291,7 +309,7 @@
                         <ul>
                             <li class="footerli">waterlines motor park, Ph</li>
                             <li class="footerli">+2348038866021</li>
-                            <li class="footerli">cravehub4543@gmail.com</li>
+                            <li class="footerli" id="emailfooter">cravehub4543@gmail.com</li>
                         </ul>
                     </div>
                     <div class="footer_div1">
@@ -310,7 +328,7 @@
                     </p><br>
                     <div>
                         <input type="email" placeholder="Your Email" class="footer_input">
-                        <button class="footer_input">SIGN UP</button>
+                        <button class="footer_input" id="signup">SIGN UP</button>
                     </div>
                     
                     </div>

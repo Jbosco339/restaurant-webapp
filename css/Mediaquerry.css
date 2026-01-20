@@ -4,25 +4,77 @@
 }
 /* Nest Hub */
 @media screen and (max-width:1024px) {
-#art3_innerDiv2{
-
-}
     .menu_class{
-    width: 30%;
-
-}    
+    width: 48%;
+} 
+#art4_div2{
+    width: 100%;
+    margin-top: 5%;
+} 
+#enjoy_meal{
+    font-size: 50px;
+}  
+.sec2_paragraph{
+    font-size: 17px;
+}
+.art2_h3{
+    font-size: 25px;
+}
+#popular{
+    font-size: 25px;
+}
+#welcome1{
+    font-size: 30px;
+}
+.art2_h3{
+    font-size: 20px;
+}
+ 
 
 }
 /* Surface Pro 7 */
 @media screen and (max-width:912px) {
-    
+    #bookTable_online{
+        font-size: 25px;
+    }
+    #art4_div2{
+    width: 95%;
+    margin-top: 4%;
+}
 }
 /* For ipad Air */
 @media screen and (max-width:820px) {
+    #cravehub{
+        font-size: 20px;
+    }
+    .sec2_paragraph{
+        font-size: 12px;
+    }
+    #art4_div2{
+    width: 100%;
+    margin-top: 15px;
+}
+#emailfooter{
+    font-size: 14px;
+}
 
 }
 /* For ipad mini */
 @media screen and (max-width:768px) {
+    #cravehub{
+        font-size: 15px;
+    }
+    #logo_img{
+        width: 25px;
+    }
+    .booktable_head{
+        width: 100%;
+        font-size: 15px;
+    }
+    #nav_div1{
+        padding-top: 10%;
+    }
+
     
 }
 /* For surface duo */
