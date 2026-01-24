@@ -6,6 +6,7 @@
     scroll-behavior: smooth;
     text-decoration: none;
     font-family: poppins, sans-serif;
+    min-width: 0;
 
 }
 #navigation{
@@ -491,15 +492,8 @@
     color: red;
 }
 
-.dropDown_icon{
-    width: 15%;
-    border-radius: 10px;
-    margin: 1%;
-}
-#dropDown_icon2{
-    width: 15%;
-    margin: 1%;
-}
+
+
 .list_anchor a{
     display: flex;
     justify-content: center;

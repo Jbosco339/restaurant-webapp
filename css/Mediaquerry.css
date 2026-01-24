@@ -41,6 +41,15 @@
     width: 95%;
     margin-top: 4%;
 }
+#ejoymeal_paragraph{
+    line-height: 1.5;
+}
+.paragraph2{
+    line-height: 1.5;
+}
+.food_menu_tag{
+    line-height: 1.5;
+}
 }
 /* For ipad Air */
 @media screen and (max-width:820px) {
@@ -56,6 +65,12 @@
 }
 #emailfooter{
     font-size: 14px;
+}
+.sec2_paragraph{
+    line-height: 1.5;
+}
+#readMore{
+    width: 60%;
 }
 
 }
@@ -74,12 +89,56 @@
     #nav_div1{
         padding-top: 10%;
     }
-
+    #enjoy_meal_button{
+        width: 50%;
+    }
     
 }
 /* For surface duo */
 @media screen and (max-width:540px) {
+    .article1{
+        flex-direction: column;
+    }
+    .article1_div{
+        width: 100%;
+    }
     
+    #ulisting{
+        display: none;
+    }
+    #burger_img{
+        display: flex;
+    }
+    #enjoy_meal{
+        font-size: 30px;
+    }
+    #ejoymeal_paragraph{
+        font-size: 15px;
+    }
+    #enjoy_meal_button{
+        width: 70%;
+    }
+    .article2_div2{
+        width: 48%;
+    }
+    #article2_div1{
+        flex-wrap: wrap;
+    }
+    .article2_div2{
+        padding: 10px;
+    }
+    .art2_h3{
+        text-align: center;
+    }
+    #article2_div12{
+        flex-direction: column;
+    }
+    #article2_div12_div{
+        width: 100%;
+    }
+    #article2_div12_div2{
+        width: 100%;
+    }
     
 }
 /* For iphone 14 proMax */
