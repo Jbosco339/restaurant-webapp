@@ -139,6 +139,27 @@
     #article2_div12_div2{
         width: 100%;
     }
+    #art3_innerDiv2{
+        flex-direction: column;
+    }
+    .menu_class{
+        width: 100%;
+    }
+    #footer_article_div{
+        flex-direction: column;
+    }
+    .footer_div1{
+        width: 90%;
+        text-align: center;
+    }
+    #art4_div1{
+        width: 100%;
+    }
+    .paragraph2{
+        padding: 1px;
+        line-height: 1.5;
+    }
+    
     
 }
 /* For iphone 14 proMax */
@@ -147,7 +168,10 @@
 }
 /* For iphone XR */
 @media screen and (max-width:414px) {
-    
+    #footer_article_div2{
+        font-size: 15px;
+    }
+   
 }
 /* For Samsung Galaxy S20 Ultra */
 @media screen and (max-width:412px) {
