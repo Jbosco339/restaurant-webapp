@@ -43,6 +43,11 @@
     margin: 5px;
     font-weight: 400;
 }
+#ulisting li:hover{
+    background-color: #d89e00;
+    padding: 7px;
+}
+
 .article1_div{
     width: 49%;
     background-color: #a39894;
@@ -249,6 +254,7 @@
 }
 #art3_innerDiv h4{
     font-size: 20px;
+    padding-top: 10px;
 }
 #art3_innerDiv2{
     background-color: white;
@@ -300,14 +306,21 @@
     border-radius: 90%;
 }
 .ptag{
-    width: 58%;
+    width: 98%;
     background-color: white;
+    border-radius: 10px;
 }
 .ptag h2{
     font-weight: 600;
     font-size: 1.1rem;
     
 }
+
+.sizing{
+    width: 85px;
+    margin-right: 15px;
+}
+
 .price{
     width: 19%;
     background-color: white;
@@ -318,6 +331,9 @@
     color: #f4b400;
     font-weight: 700;
     
+}
+#vegitable_soup{
+    margin-right: 4rem;
 }
 .mealtime2{
     margin: 10px;
@@ -363,6 +379,7 @@
     width: 50%;
     float: left;
     margin-left: 1%;
+    cursor: pointer;
 }
 
 #textarea1{
@@ -491,7 +508,9 @@
     border-radius: 15px;
     color: red;
 }
-
+#noOfpeople{
+    cursor: pointer;
+}
 
 
 .list_anchor a{
@@ -504,6 +523,7 @@
 }
 #signup{
     background-color: #d89e00;
+    cursor: pointer;
 }
 .img_innerDivs{
     width: 48%;

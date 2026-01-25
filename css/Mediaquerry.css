@@ -32,6 +32,12 @@
  
 
 }
+/* Asus zenbook fold */
+@media screen and (max-width:853px) {
+    #bookTable{
+        font-size: 16px;
+    }
+}
 /* Surface Pro 7 */
 @media screen and (max-width:912px) {
     #bookTable_online{
@@ -49,6 +55,15 @@
 }
 .food_menu_tag{
     line-height: 1.5;
+}
+.menu_class h2{
+    padding-left: 20px;
+}
+.ptag{
+    width: 80px;
+}
+.food_menu_tag{
+    padding-left: 20px;
 }
 }
 /* For ipad Air */
@@ -187,11 +202,29 @@
 }
 /* For iphone X */
 @media screen and (max-width:375px) {
-    
+    #art3_innerDiv2 h2{
+        font-size: 15px;
+    }
+    .food_menu_tag{
+        font-size: 13px;
+    }
 }
 /* For Samsung Galaxy S8+ */
 @media screen and (max-width:360px) {
-    
+    #popular{
+        font-size: 20px;
+    }
+    #foodmenu{
+        font-size: 15px;
+        padding: 15px;
+    }
+    .paragraph2{
+        font-size: 15px;
+    }
+    .mealtime_lunch{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 /* For Galaxy Z fold 5 */
 @media screen and (max-width:344px) {
